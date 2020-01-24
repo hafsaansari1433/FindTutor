@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_a_tutor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutor Profile"
+            android:textColor="#321"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/onepageimg" />
+
+        <TextView
+            android:id="@+id/qual1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/qual2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="Intermediate-MS"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Program of Study"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pg2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/gn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/gn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_default"
+            android:entries="@array/Gender"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/intro2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="Write Something About Yourself"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/exp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teaching Experience"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/exp2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="Write about your teaching career"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/can1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I can Teach these Subjects"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/can2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="what subjects can you teach"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/can3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I can Teach these Classes"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/can4"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="what subjects can you teach"
+            android:padding="10dp"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/module"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_default"
+            android:entries="@array/Module"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/set2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Timing"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/set3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="#c0cfff"
+            android:hint="__am to _am/ _pm to_pm/ _am to _pm"
+            android:textColor="#121213"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutoring Options"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/home1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I can visit student home to teach"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/home2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Students can visit me for tution"
+            android:textColor="#121213"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/update1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_default"
+            android:padding="10dp"
+            android:paddingBottom="50dp"
+            android:text="Update Profile"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.findtutor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".RegisterLogin.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.AdminDashboard" />
+        <activity android:name=".Admin.StudentList" />
+        <activity android:name=".Admin.TutorList" />
+        <activity android:name=".RegisterLogin.choose" />
+        <activity android:name=".RegisterLogin.Login" />
+        <activity android:name=".RegisterLogin.RegisterNow" />
+        <activity android:name=".Student.Classes" />
+        <activity android:name=".Student.MainPage" />
+        <activity android:name=".Student.Register_as_student" />
+        <activity android:name=".Student.Subjects" />
+        <activity android:name=".Tutor.Register_a_tutor" />
+    </application>
+
+</manifest>

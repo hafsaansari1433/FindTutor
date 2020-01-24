@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">FindTUtor</string>
+    <array name="Module">
+        <item>Online</item>
+        <item>Offline</item>
+    </array>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="usernameerror">Enter a valid username</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passworderror">Enter a valid Password</string>
+    <string name="fathernameerror">Enter a valid fathername</string>
+    <string name="addresserror">Enter a valid address</string>
+    <string name="subjecterror">Enter a valid subject</string>
+    <string name="stdclasserror">Enter a valid class</string>
+    <array name="Subjects">
+        <item>Accounting</item>
+        <item>Agriculture</item>
+        <item>Arabic</item>
+        <item>Banking</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Botany</item>
+        <item>Business Administration</item>
+        <item>Business Communication</item>
+        <item>Business Law</item>
+        <item>Business Mathematics</item>
+        <item>Chemistry</item>
+        <item>Computer</item>
+        <item>Commerce</item>
+        <item>Communication studies</item>
+        <item>Computer Science</item>
+        <item>Drawing</item>
+        <item>Economics</item>
+        <item>Education</item>
+        <item>Educational Psychology</item>
+        <item>Educational Sociology</item>
+        <item>Electrical Wiring</item>
+        <item>Engineering and Technology</item>
+        <item>English</item>
+        <item>English Literature</item>
+        <item>Essay</item>
+        <item>Ethics</item>
+        <item>Fine Arts</item>
+        <item>Food and Nutrition</item>
+        <item>Forestry</item>
+        <item>Fundamental Marketing</item>
+        <item>General Science</item>
+        <item>Geography</item>
+        <item>Geology</item>
+        <item>Graphic Arts and Designing</item>
+        <item>Guidance and Counselling</item>
+        <item>Health Education</item>
+        <item>History</item>
+        <item>Home Economics</item>
+        <item>International Relations</item>
+        <item>Introduction to Business</item>
+        <item>Islamiat</item>
+        <item>Jourbalism</item>
+        <item>Language Course</item>
+        <item>Law</item>
+        <item>Library Science</item>
+        <item>Logic</item>
+        <item>Marketing</item>
+        <item>Mass Communication</item>
+        <item>Mathematics</item>
+        <item>Microbiology</item>
+        <item>Nursing</item>
+        <item>Pak Studies</item>
+        <item>Pakistan Affairs</item>
+        <item>Philosophy</item>
+        <item>Physics</item>
+        <item>Political Sciences</item>
+        <item>Principles of Accounting</item>
+        <item>Principles of Commerce</item>
+        <item>Principles of Insurance</item>
+        <item>Psychology</item>
+        <item>Punjabi</item>
+        <item>Pure Mathematics</item>
+        <item>Social Sciences</item>
+        <item>Social Work</item>
+        <item>Space Sciences</item>
+        <item>Statistics</item>
+        <item>Urdu</item>
+    </array>
+    <array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+</resources>
